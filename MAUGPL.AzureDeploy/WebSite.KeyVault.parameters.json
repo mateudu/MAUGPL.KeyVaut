@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "maugpl11web"
+    },
+    "skuName": {
+      "value": "B1"
+    },
+    "testValue": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/98edaefe-a127-4e90-a400-32f0d6741590/resourceGroups/rgpazewdccautom001/providers/Microsoft.KeyVault/vaults/kyvazewdccautom001"
+        },
+        "secretName": "MySecretName"
+      }
+    }
+  }
+}

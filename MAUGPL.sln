@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUGPL.Web", "MAUGPL.Web\MAUGPL.Web.csproj", "{3D4DBC4D-6E48-4CB6-907C-AF6CA273E6E8}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "MAUGPL.AzureDeploy", "MAUGPL.AzureDeploy\MAUGPL.AzureDeploy.deployproj", "{93B5A1C0-08AA-4FB5-8207-419F2A6F7493}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D4DBC4D-6E48-4CB6-907C-AF6CA273E6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4DBC4D-6E48-4CB6-907C-AF6CA273E6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4DBC4D-6E48-4CB6-907C-AF6CA273E6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4DBC4D-6E48-4CB6-907C-AF6CA273E6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B5A1C0-08AA-4FB5-8207-419F2A6F7493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B5A1C0-08AA-4FB5-8207-419F2A6F7493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B5A1C0-08AA-4FB5-8207-419F2A6F7493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B5A1C0-08AA-4FB5-8207-419F2A6F7493}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134075DB-4012-4B3B-9525-4B0705E15494}
+	EndGlobalSection
+EndGlobal

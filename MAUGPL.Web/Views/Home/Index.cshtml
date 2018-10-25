@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<h2>
+    <ul>
+        <li><a id="appSettingsClick">Read from ApplicationSettings:</a> <span id="appSettingsSpan"></span></li>
+        <li><a id="keyVaultClick">Read from Key Vault:</a> <span id="keyVaultSpan"></span></li>
+    </ul>
+</h2>
+
+<script>
+    $("#appSettingsClick").click(function(){
+        $.ajax({
+            url: "/Home/GetAppSettingsEntry",
+            success: function (result) {
+                console.log(result);
+                $("#appSettingsSpan").text(result.value);
+            }
+        });
+    });
+    $("#keyVaultClick").click(function () {
+        $.ajax({
+            url: "/Home/GetKeyVaultEntry",
+            success: function (result) {
+                console.log(result);
+                $("#keyVaultSpan").text(result.value);
+            }
+        });
+    });
+</script>
